@@ -1,11 +1,10 @@
-# dojo-roman-numerals
+# Dojo Roman Numerals
 
-Dojo Repository for roman numerals kata with starting templates 
-for different lanuages.
+This repository contains templates for the [roman numerals kata (kata-log.rocks)](https://kata-log.rocks/roman-numerals-kata) in different lanuages.
 
-This kata is based of the roman numerals kata from [kata-log.rocks](https://kata-log.rocks/roman-numerals-kata).
+Before you start, please make sure
+* your git username and email are setup correctly (verify by running `git config --list`)
+* your GitHub SSH keys are set up (run `ssh -T git@github.com` to verify that you are authenticated towards GitHub)
 
-Independent of the programming language we will use [mob](https://mob.sh/) for timekeeping and code handover.
-
-Before you start, make sure, your git is set up correctly to be able to pull/push to this GitHub repository.
-(email address and username set correctly and correct SSH keys stored in your GitHub account)
+We will use [mob](https://mob.sh/) for timekeeping and code handover.
+Please install it and make sure that `mob moo` works
