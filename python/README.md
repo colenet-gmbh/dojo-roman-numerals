@@ -5,8 +5,8 @@ Based of [roman-numerals-kata](https://kata-log.rocks/roman-numerals-kata)
 ## Requirements
 
 - Python 3.7+
-- [mob](https://mob.sh/)
-- Ensure the following command runs successfully `python3 -m unittest test_app`
+- [mob](https://mob.sh/), test that you can execute `mob moo`
+- Ensure the following command runs successfully `make setup && make test`
 
 ## User story
 
