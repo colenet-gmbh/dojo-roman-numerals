@@ -1,3 +1,4 @@
+SHELL := /bin/bash
 .PHONY: setup test
 setup:
 	rm -rf env
