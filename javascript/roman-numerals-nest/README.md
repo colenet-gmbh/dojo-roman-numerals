@@ -6,12 +6,13 @@ Based of [roman-numerals-kata](https://kata-log.rocks/roman-numerals-kata)
 
 - [Node >=16](https://nodejs.org/en/)
 - [Optional] [NVM])(https://github.com/nvm-sh/nvm) for easier version switching
-- [mob](https://mob.sh/)
+- [Optional] [mob](https://mob.sh/)
 
 ## SetUp
 
 ```bash
 npm install
+npm test
 ```
 
 ## User story
