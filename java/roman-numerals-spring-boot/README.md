@@ -17,8 +17,8 @@ number
     Given the arabic number 1
     When I HTTP GET /arabic2roman/1
     Then I get an HTTP Response with status 200
-    And a body containing the JSON object { "roman": "I" }
     And a content-type of application/json
+    And a body containing the JSON object { "roman": "I" }
 
 ## Test cases
 
@@ -46,5 +46,7 @@ number
 | 45            | XLV          |
 | 50            | L            |
 | 100           | C            |
+| 400           | CD           |
 | 500           | D            |
+| 900           | CM           |
 | 1000          | M            |
