@@ -4,7 +4,7 @@ Based of [roman-numerals-kata](https://kata-log.rocks/roman-numerals-kata)
 
 ## Requirements
 
-- [JDK >=11](https://adoptium.net/)
+- [JDK >=17](https://adoptium.net/)
 - [mob](https://mob.sh/)
 - Uses [gradle](https://gradle.org/) wrapper 
 
