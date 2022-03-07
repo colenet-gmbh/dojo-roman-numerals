@@ -12,7 +12,7 @@ Based of [roman-numerals-kata](https://kata-log.rocks/roman-numerals-kata)
 
 ```bash
 npm install
-npm test
+npm run test && npm run test:e2e
 ```
 
 ## User story
