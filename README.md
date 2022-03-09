@@ -14,6 +14,5 @@ Each dojo will have its dedicated branch following the naming pattern `dojo-YYYY
 The actual kata-project can be found in the sub-directory for the corresponding language
 
 - [Java + SpringBoot](/java/roman-numerals-spring-boot)
-- [JavaScript + Nest](/javascript/roman-numerals-nest)
 - [TypeScript + Nest](/typescript/roman-numerals-nest)
 - [Python + Flask](/python)
