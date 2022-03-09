@@ -5,8 +5,10 @@ Based of [roman-numerals-kata](https://kata-log.rocks/roman-numerals-kata)
 ## Requirements
 
 - [Node >=16](https://nodejs.org/en/)
-- [Optional] [NVM])(https://github.com/nvm-sh/nvm) for easier version switching
-- [Optional] [mob](https://mob.sh/)
+
+*Optional:*
+- [NVM])(https://github.com/nvm-sh/nvm) for easier version switching
+- [mob](https://mob.sh/) for timekeeping and easier code handover
 
 ## SetUp
 
@@ -84,3 +86,10 @@ npm run test:e2e
 # test coverage
 npm run test:cov
 ```
+
+## External Docs
+
+- <https://www.typescriptlang.org/>
+- <https://jestjs.io/>
+- [Parameterized Tests with Jest](https://jestjs.io/docs/api#testeachtablename-fn-timeout)
+- <https://nestjs.com/>
