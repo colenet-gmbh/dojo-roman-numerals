@@ -7,7 +7,7 @@ Based of [roman-numerals-kata](https://kata-log.rocks/roman-numerals-kata)
 - [Node >=16](https://nodejs.org/en/)
 
 *Optional:*
-- [NVM])(https://github.com/nvm-sh/nvm) for easier version switching
+- [NVM](https://github.com/nvm-sh/nvm) for easier version switching
 - [mob](https://mob.sh/) for timekeeping and easier code handover
 
 ## SetUp
