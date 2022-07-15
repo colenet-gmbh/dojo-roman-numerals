@@ -17,10 +17,13 @@ describe('AppService', () => {
       { arabic: 10, roman: 'X' },
       { arabic: 11, roman: 'XI' },
       { arabic: 14, roman: 'XIV' },
+      { arabic: 15, roman: 'XV' },
+      { arabic: 17, roman: 'XVII' },
+      { arabic: 40, roman: 'XL' },
     ])(
       'Given the arabic number $arabic should return a body containing roman: $roman',
       ({ arabic, roman }) => {
-        expect(appService.getArabicToRoman(arabic)).toStrictEqual(roman);
+        expect(appService.arabicToRoman(arabic)).toStrictEqual(roman);
       },
     );
   });

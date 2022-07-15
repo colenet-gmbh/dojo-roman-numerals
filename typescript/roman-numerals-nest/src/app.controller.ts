@@ -13,6 +13,6 @@ export class AppController {
   @Get('/arabic2roman/:arabic')
   getArabicToRoman(@Param() params): { roman: string } {
     const arabic = Number(params.arabic);
-    return { roman: this.appService.getArabicToRoman(arabic) };
+    return { roman: this.appService.arabicToRoman(arabic) };
   }
 }
