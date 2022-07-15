@@ -9,4 +9,8 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  @Get()
+  getArabicToRoman(arabic: number): { roman: string } {
+    return {"roman": "I"};
+  }
 }
