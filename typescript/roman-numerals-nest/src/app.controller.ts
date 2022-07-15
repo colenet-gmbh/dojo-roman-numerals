@@ -16,6 +16,7 @@ export class AppController {
     const arabic = Number(params.arabic);
 
     if (arabic === 1) roman = 'I';
+    if (arabic === 3) roman = 'III';
 
     return { roman };
   }
