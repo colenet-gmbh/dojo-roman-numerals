@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Param } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -10,10 +10,10 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('/arabic2roman/1')
-  @Get('/arabic2roman/2')
-  getArabicToRoman(arabic: number): { roman: string } {
+  @Get('/arabic2roman/:arabic')
+  getArabicToRoman(@Param() params): { roman: string } {
     let roman = 'II';
+    const arabic = Number(params.arabic);
 
     if (arabic === 1) roman = 'I';
 
