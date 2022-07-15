@@ -22,13 +22,12 @@ describe('AppController (e2e)', () => {
       .expect('Hello World!');
   });
 
-  it('/arabic2roman/1 (GET)', () => {
-    return request(app.getHttpServer())
+  it('/arabic2roman/1 (GET)', async () => {
+    const response = await request(app.getHttpServer())
       .get('/arabic2roman/1')
       .expect(200)
       .expect('{"roman":"I"}')
-      .expect((res) =>
-          res.get('content-type') === 'application/json'
-      );
+      .expect((res) => res.get('content-type') === 'application/json');
+    expect(response.header['content-type']).toContain('application/json');
   });
 });
