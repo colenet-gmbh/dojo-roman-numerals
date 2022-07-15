@@ -20,15 +20,21 @@ describe('AppController', () => {
     });
 
     it('Given the arabic number 1 should return a body containing roman: I', () => {
-        expect(appController.getArabicToRoman({arabic: 1})).toStrictEqual({ roman: 'I' });
+      expect(appController.getArabicToRoman({ arabic: 1 })).toStrictEqual({
+        roman: 'I',
+      });
     });
 
     it('Given the arabic number 2 should return a body containing roman: II', () => {
-      expect(appController.getArabicToRoman({arabic: 2})).toStrictEqual({ roman: 'II' });
+      expect(appController.getArabicToRoman({ arabic: 2 })).toStrictEqual({
+        roman: 'II',
+      });
     });
 
     it('Given the arabic number 3 should return a body containing roman: III', () => {
-      expect(appController.getArabicToRoman({arabic: 3})).toStrictEqual({ roman: 'III' });
+      expect(appController.getArabicToRoman({ arabic: 3 })).toStrictEqual({
+        roman: 'III',
+      });
     });
   });
 });
