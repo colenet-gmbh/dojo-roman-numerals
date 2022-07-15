@@ -11,7 +11,12 @@ export class AppController {
   }
 
   @Get('/arabic2roman/1')
+  @Get('/arabic2roman/2')
   getArabicToRoman(arabic: number): { roman: string } {
-    return { roman: 'I' };
+    let roman = 'II';
+
+    if (arabic === 1) roman = 'I';
+
+    return { roman };
   }
 }

@@ -21,6 +21,11 @@ describe('AppController', () => {
     it('Given the arabic number 1 should return a body containing roman: I', () => {
       expect(appController.getArabicToRoman(1)).toStrictEqual({ roman: 'I' });
     });
+
+    it('Given the arabic number 2 should return a body containing roman: II', () => {
+      expect(appController.getArabicToRoman(2)).toStrictEqual({ roman: 'II' });
+    });
+
   });
 });
 

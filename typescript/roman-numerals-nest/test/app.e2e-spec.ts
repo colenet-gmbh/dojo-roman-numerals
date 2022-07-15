@@ -26,8 +26,16 @@ describe('AppController (e2e)', () => {
     const response = await request(app.getHttpServer())
       .get('/arabic2roman/1')
       .expect(200)
-      .expect('{"roman":"I"}')
-      .expect((res) => res.get('content-type') === 'application/json');
+      .expect('{"roman":"I"}');
+    expect(response.header['content-type']).toContain('application/json');
+  });
+
+
+  it('/arabic2roman/2 (GET)', async () => {
+    const response = await request(app.getHttpServer())
+        .get('/arabic2roman/2')
+        .expect(200)
+        .expect('{"roman":"II"}');
     expect(response.header['content-type']).toContain('application/json');
   });
 });
