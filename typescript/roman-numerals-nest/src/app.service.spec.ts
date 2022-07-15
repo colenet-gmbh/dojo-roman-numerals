@@ -11,6 +11,7 @@ describe('AppService', () => {
       { arabic: 4, roman: 'IV' },
       { arabic: 5, roman: 'V' },
       { arabic: 6, roman: 'VI' },
+      { arabic: 7, roman: 'VII' },
     ])(
       'Given the arabic number $arabic should return a body containing roman: $roman',
       ({ arabic, roman }) => {
