@@ -12,12 +12,7 @@ export class AppController {
 
   @Get('/arabic2roman/:arabic')
   getArabicToRoman(@Param() params): { roman: string } {
-    let roman = 'II';
     const arabic = Number(params.arabic);
-
-    if (arabic === 1) roman = 'I';
-    if (arabic === 3) roman = 'III';
-
-    return { roman };
+    return { roman: this.appService.getArabicToRoman(arabic) };
   }
 }
