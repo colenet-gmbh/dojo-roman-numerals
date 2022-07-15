@@ -19,11 +19,10 @@ describe('AppController', () => {
       expect(appController.getHello()).toBe('Hello World!');
     });
     it('Given the arabic number 1 should return a body containing roman: I', () => {
-      expect(appController.getArabicToRoman(1)).toStrictEqual({"roman": "I"});
+      expect(appController.getArabicToRoman(1)).toStrictEqual({ roman: 'I' });
     });
   });
 });
-
 
 //  Given the arabic number 1
 //     When I HTTP GET /arabic2roman/1
