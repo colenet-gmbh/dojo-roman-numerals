@@ -10,15 +10,18 @@ Based of [roman-numerals-kata](https://kata-log.rocks/roman-numerals-kata)
 
 ## User story
 
+
 As a researcher I want to have a web service interface,
 so that I can convert any arabic number to its corresponding roman
 number
 
-    Given the arabic number 1
-    When I HTTP GET /arabic2roman/1
-    Then I get an HTTP Response with status 200
-    And a content-type of application/json
-    And a body containing the JSON object { "roman": "I" }
+```gherkin
+Given the arabic number 1
+When I HTTP GET /arabic2roman/1
+Then I get an HTTP Response with status 200
+And a content-type of application/json
+And a body containing the JSON object { "roman": "I" }
+```
 
 ## Test cases
 
