@@ -1,21 +1,24 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "declaration": true,
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "target": "es2017",
-    "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "module": "commonjs",
+    "target": "es2017",
+    "declaration": true,
     "incremental": true,
     "skipLibCheck": true,
-    "strictNullChecks": false,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    // Code quality options
+    // https://blog.openreplay.com/improving-code-quality-in-typescript-with-compiler-options
+    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": false
   }
 }
